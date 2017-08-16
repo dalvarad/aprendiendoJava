@@ -63,6 +63,63 @@ public class Tutorial {
        System.out.println("El resultado de la division es: "+division);
        System.out.println("El resultado de la multiplicacion es: "+multiplicacion);
        System.out.println("El resultado del residuo es: "+residuo);
+       
+       /*Sentencia IF / ELSE*/
+       System.out.println("------------------------------------------");
+       System.out.println("IF / ELSE");
+       
+       int var = 5;
+       if(var == 5){
+           //codigo
+           System.out.println("Tu operacion es verdadera");
+       }else{
+           //codigo
+           System.out.println("Tu operacion es falsa");
+       }
+       
+       if(var == 4){
+           //codigo
+           System.out.println("Tu operacion es verdadera");
+       }else{
+           //codigo
+           System.out.println("Tu operacion es falsa");
+       }
+       
+       boolean cond;
+       cond = true;
+       
+       if(cond){
+           //codigo
+           System.out.println("Tu condicion es verdadera");
+       }else{
+           //codigo
+           System.out.println("Tu operacion es falsa");
+       }
+       System.out.println("----------------------");
+       System.out.println("Operaciones || y &&");
+       
+       int a = 6;
+       int b = 10;
+       if((a==6) && (b>5)){
+           System.out.println("Tu operacion && es verdadera");
+       }else{
+           System.out.println("Tu operacion && es falsa");
+       }
+       
+       if((a==1) || (b>5)){
+           System.out.println("Tu operacion || es verdadera");
+       }else{
+           System.out.println("Tu operacion || es falsa");
+       }
+       
+       System.out.println("--------------------------");
+       System.out.println("Operacion de negado (!)");
+       if(!(a==2) || (b<5)){
+           System.out.println("Tu operacion ! es verdadera");
+       }else{
+           System.out.println("Tu operacion ! es falsa");
+       }
+       
     }
     
 }
