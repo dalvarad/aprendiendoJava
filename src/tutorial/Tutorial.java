@@ -120,6 +120,18 @@ public class Tutorial {
            System.out.println("Tu operacion ! es falsa");
        }
        
+       System.out.println("");
+       System.out.println("-----------------------------");
+       System.out.println("Ciclo FOR");
+       for(int contador = 0; contador <= 10; contador++){
+           System.out.println("El contador va en: "+contador);
+       }
+       for(int contador2 = 10; contador2 >= 0; contador2--){
+           System.out.println("El contador va disminuyendo en: "+contador2);
+       }
+       
+       
+       
     }
     
 }
