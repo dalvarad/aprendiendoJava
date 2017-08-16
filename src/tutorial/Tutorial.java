@@ -130,6 +130,25 @@ public class Tutorial {
            System.out.println("El contador va disminuyendo en: "+contador2);
        }
        
+       System.out.println("");
+       System.out.println("-----------------------------");
+       System.out.println("Ciclo WHILE");
+       
+       int x = 0;
+       while(x<=10){
+           System.out.println("El valor de x es: "+x);
+           x = x+2;
+       }
+       
+       System.out.println("");
+       System.out.println("Mezanclando ciclo while con if");
+       int x2=0;
+       boolean cnd = true;
+       while(cnd){
+           System.out.println("El valor de x es: "+x2);
+           x2 = x2+2;
+           if(x2 > 8) cnd = false;
+       }
        
        
     }
