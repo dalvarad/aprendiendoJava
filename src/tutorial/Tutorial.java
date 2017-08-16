@@ -150,6 +150,29 @@ public class Tutorial {
            if(x2 > 8) cnd = false;
        }
        
+       System.out.println("");
+       System.out.println("-----------------------------");
+       System.out.println("BREAK Y CONTINUE");
+       
+       for(int q=0; q<=10; q++){
+           System.out.println("Aun estas en el ciclo");
+           if(q==4){
+               break;
+           }
+           System.out.println("Estas en el ciclo numero: "+q);
+       }
+       System.out.println("Se activo el break, has salido del ciclo");
+       System.out.println("");
+       for(int q2=0; q2<=10; q2++){
+           System.out.println("Aun estas en el ciclo");
+           if(q2==4){
+               continue;
+           }
+           System.out.println("Estas en el ciclo numero: "+q2);
+       }
+       System.out.println("Se activo la sentencia CONTINUE, pero no has salido del ciclo");
+       
+       
        
     }
     
